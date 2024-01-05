@@ -48,7 +48,7 @@ jobs:
         with:
           name: springboot-example
       - name: Deploy to Azure App Service
-        uses: azure/webapps-deploy@v4
+        uses: azure/webapps-deploy@v3
         with:
           app-name: vindhyasp
           publish-profile: ${{ secrets.azureWebAppPublishProfile }}
